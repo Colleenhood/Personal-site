@@ -1,0 +1,21 @@
+.banner{color:rgb(206, 220, 220);
+     text-align: center; 
+     border-style: solid;
+     background-color:#262b30;
+    display:flex;}
+
+.pic { flex: 1;}
+.name { flex: 4; align-self: center;}
+
+img{width: 160px;
+    height: 160px;
+    border: 3px;
+    margin: 20px;
+    border-radius: 50%;
+    box-sizing:border-box;
+    border-color:rgba(255, 255, 255, 0.539) ;
+    border-style: solid;
+}
+
+     
+body{background-color:rgb(206, 220, 220)}
