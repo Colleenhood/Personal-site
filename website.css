@@ -1,21 +1,20 @@
-.banner{color:rgb(206, 220, 220);
-     text-align: center; 
-     border-style: solid;
-     background-color:#262b30;
-    display:flex;}
+.banner{background-color:#262b30;
+        color:rgb(206, 220, 220);
+        display:flex;
+        margin: 0%;}
 
-.pic { flex: 1;}
-.name { flex: 4; align-self: center;}
+.pic{flex:1;
+    height:15%;
+    width:15%;
+    margin:20px;
+    margin-right:0;
+    border-radius:30%;
+    border-style:double;
+    border-width:thick;}
 
-img{width: 160px;
-    height: 160px;
-    border: 3px;
-    margin: 20px;
-    border-radius: 50%;
-    box-sizing:border-box;
-    border-color:rgba(255, 255, 255, 0.539) ;
-    border-style: solid;
+.name{flex: 4;
+    text-align:center;
+    font-size:500%;
+    align-self:center;
 }
 
-     
-body{background-color:rgb(206, 220, 220)}
