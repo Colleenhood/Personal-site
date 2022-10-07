@@ -1,36 +1,26 @@
-.banner{background-color:#262b30;
-        color:rgb(206, 220, 220);
-        display:flex;
-        margin: 0%;}
-
-.pic{flex:1;
-    height:auto;
-    width: 15%;
-    margin:10px;
-    margin-right:0;
-    border-radius:50%;
-    border-style:double;
-    border-width:thick;
-    align-self: center;}
-
-.name{flex: 4;
-    text-align:center;
-    font-size: 7vw;
-    align-self:center;
-}
-
-.Navigation{display:flex;
-            background-color:#262b30;
-}
-    
-.Home{flex:1;text-align:center;} 
-.Photography{flex:1;text-align:center;}
-.AboutMe{flex:1;text-align:center;}
-
-.navigation
-a:link, a {color:rgb(206, 220, 220);text-decoration:none;} 
-a:hover, a:active{color:rgb(240, 239, 242);}    
-
-
-body {background-color:rgb(206, 220, 220);
-        font-family:Arial, sans-serif}
+body{ background-image:url("Baslow.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background: 
+        }
+        
+        .Navigation{display:flex;
+                    height: 1115px;
+        }
+        .title{flex:3; text-align: left;}
+        .Home{flex:1;text-align:center;} 
+        .Photography{flex:1;text-align:center;}
+        .AboutMe{flex:1;text-align:center;}
+        
+        .navigation
+        a:link, a {color:rgb(40, 43, 43);text-decoration:none;} 
+        a:hover, a:active{color:rgb(40, 43, 43);}  
+        
+        
+        .photo_content{
+            display: flex;
+        }
+        .Photo1{width:15%; flex:1; padding: 2%;}
+        .Photo2 {width: 15%; flex:1;padding: 2%;}
+        .Photo3 {width: 15%;flex:1;padding: 2%;}
+        .Photo4 {width: 15%;flex:1;padding: 2%;}
