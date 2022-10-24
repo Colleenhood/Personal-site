@@ -1,0 +1,97 @@
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.Navigation {
+  display: flex;
+  object-fit: cover;
+  flex: 1;
+  background-image: url("Baslow.jpg");
+  height: 150vh;
+  background-size: 90vmax;
+  background-repeat: no-repeat;
+  font-size: 8pt;
+}
+.title {
+  flex: 3;
+  text-align: left;
+}
+.Home {
+  flex: 1;
+  text-align: center;
+}
+.Photography {
+  flex: 1;
+  text-align: center;
+}
+.AboutMe {
+  flex: 1;
+  text-align: center;
+}
+
+a:link,
+a {
+  color: rgb(40, 43, 43);
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: rgb(40, 43, 43);
+}
+
+.content {
+  flex: 2;
+}
+
+.photo_content {
+  display: flex;
+}
+.Photo1 {
+  width: 15%;
+  flex: 1;
+  padding: 2%;
+  filter: grayscale(100%);
+}
+.Photo1:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+.Photo2 {
+  width: 15%;
+  flex: 1;
+  padding: 2%;
+  filter: grayscale(100%);
+}
+.Photo2:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+.Photo3 {
+  width: 15%;
+  flex: 1;
+  padding: 2%;
+  filter: grayscale(100%);
+}
+.Photo3:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+.Photo4 {
+  width: 15%;
+  flex: 1;
+  padding: 2%;
+  filter: grayscale(100%);
+}
+.Photo4:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+
+.abme {
+  font-size: 14pt;
+}
