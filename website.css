@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .body {
   display: flex;
@@ -235,3 +236,31 @@ a:active {
   font-family:"Encode Sans SC", sans-serif;
   font-size: 100%;
 }
+=======
+body{ background-image:url("Baslow.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background: 
+        }
+        
+        .Navigation{display:flex;
+                    height: 1115px;
+        }
+        .title{flex:3; text-align: left;}
+        .Home{flex:1;text-align:center;} 
+        .Photography{flex:1;text-align:center;}
+        .AboutMe{flex:1;text-align:center;}
+        
+        .navigation
+        a:link, a {color:rgb(40, 43, 43);text-decoration:none;} 
+        a:hover, a:active{color:rgb(40, 43, 43);}  
+        
+        
+        .photo_content{
+            display: flex;
+        }
+        .Photo1{width:15%; flex:1; padding: 2%;}
+        .Photo2 {width: 15%; flex:1;padding: 2%;}
+        .Photo3 {width: 15%;flex:1;padding: 2%;}
+        .Photo4 {width: 15%;flex:1;padding: 2%;}
+>>>>>>> fd30b891b8459dc194b92a97a9d640ccc70458fb
