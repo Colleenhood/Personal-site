@@ -1,0 +1,237 @@
+
+.body {
+  display: flex;
+  flex-direction: column;
+  font-family:"Encode Sans SC", sans-serif;  
+}
+
+.Navigation {
+  font-family:"Encode Sans SC", sans-serif;
+  display: flex;
+  flex: 1
+  font-size: 8pt;
+}
+
+
+
+.title {
+  font-family: "Codystar", sans-serif;
+  font-weight: bold;
+}
+
+.Cover{
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 80%;
+  filter: grayscale(100%);
+  align-self: center;
+  
+}
+
+.title {
+  flex: 3;
+  text-align: left;
+}
+.Home {
+  flex: 1;
+  text-align: center;
+}
+.Photography {
+  flex: 1;
+  text-align: center;
+}
+.AboutMe {
+  flex: 1;
+  text-align: center;
+}
+
+a:link,
+a {
+  color: rgb(40, 43, 43);
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: rgb(40, 43, 43);
+}
+
+.content {
+  flex: 2;
+}
+
+.line1content {
+  display: flex;
+}
+.Photo1 {
+  width: 15%;
+  flex: 1;
+  padding: 1%;
+  filter: grayscale(100%);
+}
+.Photo1:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+.Photo2 {
+  width: 15%;
+  flex: 1;
+  padding: 1%;
+  filter: grayscale(100%);
+}
+.Photo2:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+.Photo3 {
+  width: 15%;
+  flex: 1;
+  padding: 1%;
+  filter: grayscale(100%);
+}
+.Photo3:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+.Photo4 {
+  width: 15%;
+  flex: 1;
+  padding: 1%;
+  filter: grayscale(100%);
+}
+.Photo4:hover {
+  filter: grayscale(100%);
+  flex: 1;
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+
+.line2content {
+  display: flex;
+}
+
+.Photo5 {
+  width: 15%;
+  flex: 1;
+  padding: 1%;
+  filter: grayscale(100%);
+}
+
+.Photo5:hover {
+  filter: grayscale(100%);
+  flex: 1;
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+
+.Photo6 {
+  width: 15%;
+  flex: 1;
+  padding: 1%;
+  filter: grayscale(100%);
+}
+
+.Photo6:hover {
+    filter: grayscale(100%);
+    flex: 1;
+    -webkit-filter: grayscale(0%);
+    transition: 1s ease;
+}
+
+.Photo7 {
+  width: 15%;
+  flex: 1;
+  padding: 1%;
+  filter: grayscale(100%);
+}
+
+.Photo7:hover {
+  filter: grayscale(100%);
+  flex: 1;
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+
+.Photo8 {
+  width: 15%;
+  flex: 1;
+  padding: 1%;
+  filter: grayscale(100%);
+}
+
+.Photo8:hover {
+  filter: grayscale(100%);
+  flex: 1;
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+
+.line3content {
+  display: flex;
+}
+
+.Photo9 {
+  width: 15%;
+  flex: 1;
+  padding: 1%;
+  filter: grayscale(100%);
+}
+
+.Photo9:hover {
+  filter: grayscale(100%);
+  flex: 1;
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+
+.Photo10 {
+  width: 15%;
+  flex: 1;
+  padding: 1%;
+  filter: grayscale(100%);
+}
+
+.Photo10:hover {
+    filter: grayscale(100%);
+    flex: 1;
+    -webkit-filter: grayscale(0%);
+    transition: 1s ease;
+}
+
+.Photo11 {
+  width: 15%;
+  flex: 1;
+  padding: 1%;
+  filter: grayscale(100%);
+}
+
+.Photo11:hover {
+  filter: grayscale(100%);
+  flex: 1;
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+
+.Photo12 {
+  width: 15%;
+  flex: 1;
+  padding: 1%;
+  filter: grayscale(100%);
+}
+
+.Photo12:hover {
+  filter: grayscale(100%);
+  flex: 1;
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
+}
+
+
+
+
+.Subheading{
+  font-family:"Encode Sans SC", sans-serif;
+  font-size: 100%;
+}
