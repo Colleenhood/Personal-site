@@ -1,31 +1,55 @@
-
 .body {
   display: flex;
   flex-direction: column;
-  font-family:"Encode Sans SC", sans-serif;  
+  font-family: "Encode Sans SC", sans-serif;
 }
 
 .Navigation {
-  font-family:"Encode Sans SC", sans-serif;
+  font-family: "Encode Sans SC", sans-serif;
   display: flex;
-  flex: 1
-  font-size: 8pt;
+  flex: 1;
+  font-size: 5pt;
 }
 
+.nav {
+  margin: 0;
+  overflow: hidden;
+}
 
+.div1 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.about {
+  display: inline-block;
+  list-style-type: none;
+  flex: 1;
+  align-self: right;
+}
+
+.photo {
+  flex: 1;
+  align-self: right;
+}
+.logo {
+  flex: ;
+  width: 3.75vw;
+  max-width: 3.75vw;
+}
 
 .title {
   font-family: "Codystar", sans-serif;
   font-weight: bold;
 }
 
-.Cover{
+.Cover {
   padding-left: 10%;
   padding-right: 10%;
   width: 80%;
   filter: grayscale(100%);
   align-self: center;
-  
 }
 
 .title {
@@ -134,10 +158,10 @@ a:active {
 }
 
 .Photo6:hover {
-    filter: grayscale(100%);
-    flex: 1;
-    -webkit-filter: grayscale(0%);
-    transition: 1s ease;
+  filter: grayscale(100%);
+  flex: 1;
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
 }
 
 .Photo7 {
@@ -194,10 +218,10 @@ a:active {
 }
 
 .Photo10:hover {
-    filter: grayscale(100%);
-    flex: 1;
-    -webkit-filter: grayscale(0%);
-    transition: 1s ease;
+  filter: grayscale(100%);
+  flex: 1;
+  -webkit-filter: grayscale(0%);
+  transition: 1s ease;
 }
 
 .Photo11 {
@@ -228,10 +252,7 @@ a:active {
   transition: 1s ease;
 }
 
-
-
-
-.Subheading{
-  font-family:"Encode Sans SC", sans-serif;
+.Subheading {
+  font-family: "Encode Sans SC", sans-serif;
   font-size: 100%;
 }
